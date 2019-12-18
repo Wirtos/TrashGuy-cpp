@@ -1,13 +1,11 @@
-#ifndef SWASTON_GENERATOR_H
-#define SWASTON_GENERATOR_H
+#ifndef TRASHGUY_H
+#define TRASHGUY_H
 
 #include <string>
-
+#include <vector>
 #include <stdio.h>
 
-#include "utf8.h"
 #include "utf8_tools.h"
-#include <vector>
 
 
 class TrashGuy {
