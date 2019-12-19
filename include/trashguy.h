@@ -20,7 +20,7 @@ public:
         sprite_right_ = sprite_right;
     };
 
-    std::vector<std::string> generate(FILE *file = NULL) {
+    std::vector<std::string> generate() {
 
         std::vector<std::string> vec = utf8_to_vector(word_);
         std::vector<std::string> res;
